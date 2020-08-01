@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 require 'pry'
+=======
+>>>>>>> 7fb9a5f5ab127afbe33574493543e82aaf8f1183
 class Artist
   
   attr_accessor :name, :songs
@@ -8,7 +11,10 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
+<<<<<<< HEAD
     @@song_count
+=======
+>>>>>>> 7fb9a5f5ab127afbe33574493543e82aaf8f1183
   end
   
    def songs
@@ -29,7 +35,11 @@ class Artist
   end
   
   def self.song_count
+<<<<<<< HEAD
     Song.all.count
+=======
+    @@song_count
+>>>>>>> 7fb9a5f5ab127afbe33574493543e82aaf8f1183
   end
   
 end

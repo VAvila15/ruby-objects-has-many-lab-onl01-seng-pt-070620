@@ -31,7 +31,11 @@ class Author
   end
   
   def self.post_count
+<<<<<<< HEAD
     Post.all.count
+=======
+    @@post_count
+>>>>>>> 7fb9a5f5ab127afbe33574493543e82aaf8f1183
   end
 
 end
